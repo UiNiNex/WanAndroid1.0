@@ -1,0 +1,78 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">登陆</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">玩Android</string>
+    <string name="text_loading_reload">重新加载</string>
+    <string name="text_loading_loading">正在加载...</string>
+    <string name="text_loading_error">加载失败，请重试。</string>
+    <string name="text_title_user_name">用户名</string>
+    <string name="text_title_password">密码</string>
+    <string name="text_hint_no_account_to_register">没有账号？去注册</string>
+    <string name="text_hint_had_accoun_to_login">已经有账号，去登录</string>
+    <string name="text_login">登录</string>
+    <string name="text_register">注册</string>
+    <string name="text_title_repassword">再次输入密码</string>
+
+    <string name="text_net_error_retry">网络异常，请重试</string>
+
+    <!--登录-->
+    <string name="text_login_tv_to_register">没有账号？去注册</string>
+    <string name="text_login_edt_password">密码</string>
+    <string name="text_login_edt_name">用户名</string>
+    <string name="bt_login_text">登录</string>
+    <string name="text_login_fail">登录失败</string>
+    <!--注册-->
+    <string name="text_login_edt_rpassword">重复密码</string>
+    <string name="text_register_bt_text">注册</string>
+    <string name="text_register_tv_to_login">已有账户？去登陆</string>
+    <string name="text_register_fail">注册失败</string>
+
+    <!--登录注册提示语-->
+    <string name="text_login_register_namenull">账号不能为空</string>
+    <string name="text_login_passwordnull">密码不能为空</string>
+    <string name="text_login_password_and_name_error">账号密码错误</string>
+    <string name="text_register_password_and_repassword_error">两次密码输入不同</string>
+
+
+    <!--侧拉菜单-->
+    <string name="cela_shouchang">收藏</string>
+    <string name="cela_TODO">TODO工具</string>
+    <string name="cela_yejian">夜间模式</string>
+    <string name="cela_shezhi">设置</string>
+    <string name="cela_women">关于我们</string>
+    <string name="cela_out">退出登录</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="text_nav_collection">高德地图</string>
+    <string name="text_nav_todo">TODO 工具</string>
+    <string name="text_nav_show_mode">夜间模式</string>
+    <string name="text_nav_setting">设置</string>
+    <string name="text_nav_about_us">关于我们</string>
+    <string name="text_nav_logout">退出登录</string>
+
+    <!---->
+    <string name="text_main_tab_home_page">首页</string>
+    <string name="text_main_tab_knowledge_page">知识体系</string>
+    <string name="text_main_tab_official_accounts_page">视频</string>
+    <string name="text_main_tab_navigation_page">导航</string>
+    <string name="text_main_tab_project_page">项目</string>
+    <string name="text_new">新</string>
+    <string name="text_unknow">unKnow</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="knowledge_hierarchy">Knowledge hierarchy</string>
+    <color name="colorText">#2C2C2C</color>
+    <color name="comment_text">#5b5d5c</color>
+    <string name="navigation_tint">%1$s navigation resources continue to be updated</string>
+    <string name="title_activity_wxentry">WXEntryActivity</string>
+    <string name="login_youmeng">不想注册？试试三方登录吧</string>
+    <string name="KEY_UM_HEAD_PROFILE">KEY_UM_HEAD_PROFILE</string>
+    <string name="title_activity_map_navigation">MapNavigation</string>
+</resources>

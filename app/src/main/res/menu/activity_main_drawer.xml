@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/ic_navigation_black_24dp"
+        android:title="@string/text_nav_collection" />
+    <item
+        android:id="@+id/home_item_shouchang"
+        android:icon="@mipmap/xin"
+        android:title="收藏" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@mipmap/todo"
+        android:title="@string/text_nav_todo" />
+    <item
+        android:id="@+id/nav_slideshow"
+        android:icon="@mipmap/yueliang"
+        android:title="@string/text_nav_show_mode" />
+    <item
+        android:id="@+id/nav_manage"
+        android:icon="@mipmap/chilun"
+        android:title="@string/text_nav_setting" />
+
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@mipmap/gantanhao"
+        android:title="@string/text_nav_about_us" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@mipmap/dianyuan"
+        android:title="@string/text_nav_logout"
+        android:visible="false"/>
+
+</menu>

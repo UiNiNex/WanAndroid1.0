@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab_main_pager"
+        android:enabled="true"
+        android:icon="@drawable/icon_home_pager_not_selected"
+        android:title="@string/text_main_tab_home_page"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab_knowledge_hierarchy"
+        android:enabled="true"
+        android:icon="@drawable/icon_knowledge_hierarchy_not_selected"
+        android:title="@string/text_main_tab_knowledge_page"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab_wx_article"
+        android:enabled="true"
+        android:icon="@drawable/weixin_hei"
+        android:title="@string/text_main_tab_official_accounts_page"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab_navigation"
+        android:enabled="true"
+        android:icon="@drawable/icon_navigation_not_selected"
+        android:title="@string/text_main_tab_navigation_page"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab_project"
+        android:enabled="true"
+        android:icon="@drawable/icon_project_not_selected"
+        android:title="@string/text_main_tab_project_page"
+        app:showAsAction="ifRoom" />
+</menu>

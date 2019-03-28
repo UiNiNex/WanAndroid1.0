@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303F9F</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color">#00ffffff</color>
+    <color name="colorZiDingYi">#E91E63</color>
+    <color name="colorBackground">#EEEEEE</color>
+    <color name="colorCard">#FFFFFF</color>
+    <color name="deep_grey">#e6e6e6</color>
+    <color name="white">#ffffff</color>
+    <color name="navigation_tab">#DDDEE3</color>
+    <color name="navigation_view">#edebeb</color>
+    <color name="black_text">#474747</color>
+
+    <color name="color_a">#FFC946</color>
+    <!-- 多用于按钮按下颜色-->
+    <color name="color_b">#E5B53F</color>
+
+    <color name="color_c">@android:color/darker_gray</color>
+
+    <!--字体默认颜色-->
+    <color name="color_d">#616161</color>
+
+
+    <color name="color_e">#D81B60</color>
+    <color name="comment_line">#dddddd</color>
+    <color name="color_f">#96869d</color>
+
+    <!--导航页-->
+    <color name="navigation_selected">#FF36BC9B</color>
+    <color name="navigation_normal">#FF757575</color>
+    <color name="navigation_tabselect">#FF4081</color>
+
+    <color name="color_k">#eeeeee</color>
+    <color name="color_g">#f5f5f5</color>
+    <color name="color_h">#000000</color>
+</resources>

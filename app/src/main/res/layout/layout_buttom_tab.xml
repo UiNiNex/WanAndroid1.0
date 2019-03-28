@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <wanandroid.c03.jy.com.wanandroid.view.BottomTabLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_bottom_tab_ayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/fengce"
+        app:fabSize="normal"
+        app:borderWidth="0.0dip"
+        app:elevation="5.0dip"
+        tools:ignore="VectorDrawableCompat"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        style="@style/WanAndroid.Split_line_1"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <RadioGroup
+        android:background="#f2f2f2"
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="5dp">
+
+        <RadioButton
+            android:id="@+id/main_bottom_tab_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_home_black_24dp"
+            android:gravity="center"
+            android:checked="true"
+            android:text="@string/text_main_tab_home_page"
+            android:textColor="@drawable/main_bottom_tab_text_color_selector" />
+
+        <RadioButton
+            android:id="@+id/main_bottom_tab_knowledge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_apps_black_24dp"
+            android:gravity="center"
+            android:text="@string/text_main_tab_knowledge_page"
+            android:textColor="@drawable/main_bottom_tab_text_color_selector" />
+
+        <RadioButton
+            android:id="@+id/main_bottom_tab_official_accounts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/weixin_hei"
+            android:gravity="center"
+            android:text="@string/text_main_tab_official_accounts_page"
+            android:textColor="@drawable/main_bottom_tab_text_color_selector" />
+
+        <RadioButton
+            android:id="@+id/main_bottom_tab_navigation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_navigation_black_24dp"
+            android:gravity="center"
+            android:text="@string/text_main_tab_navigation_page"
+            android:textColor="@drawable/main_bottom_tab_text_color_selector" />
+
+        <RadioButton
+            android:id="@+id/main_bottom_tab_project"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_project_black_24dp"
+            android:gravity="center"
+            android:text="@string/text_main_tab_project_page"
+            android:textColor="@drawable/main_bottom_tab_text_color_selector" />
+    </RadioGroup>
+
+</wanandroid.c03.jy.com.wanandroid.view.BottomTabLayout>
